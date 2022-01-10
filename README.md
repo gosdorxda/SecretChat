@@ -1,2 +1,3 @@
-# SecretChat
-Ini merupakan sumber kode website pesan anonim (secretme.chat)
+composer install
+npm i
+php artisan migrate

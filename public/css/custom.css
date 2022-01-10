@@ -1,0 +1,127 @@
+.navbar-box-shadow{
+  box-shadow: 0 0 0 1px rgba(20,20,31,.05), 0 1px 3px 0 rgba(20,20,31,.15);
+}
+.timeline-title{
+  font-size: 21px;
+  font-weight: 500;
+    line-height: 1.2;
+    margin: 0
+}
+.button-share{
+  margin-top: 15px;
+}
+.content-message{
+  border: 1px solid #edf2f9;
+  background-color: #edf2f9;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+}
+.border-radius-none{
+  border-radius: 0
+}
+.p-message{
+  margin: 0;
+}
+.time-message{
+  font-size: 80%;
+    font-weight: 400;
+}
+.line-height-none{
+  line-height: 0;
+}
+.tab-content > .padding-none{
+  padding: 0px;
+}
+.semi-transparan{
+  opacity: 0.7
+}
+.border-semi-transparan{
+  border: 1px solid #e6e6e6;
+}
+.border-none{
+  border: 0;
+}
+.wa{
+  color: #fff;
+  background-color: #25D366;
+  border:0;
+  margin-bottom: 5px;
+}
+.fb{
+  color: #fff;
+  background-color: #4267B2;
+  border:0;
+  margin-bottom: 5px;
+}
+.mesengger{
+  color: #fff;
+  background-color: #00B2FF;
+  border:0;
+  margin-bottom: 5px;
+}
+.ig{
+  color: #fff;
+  background-color: #FD1D1D;
+  border:0;
+  margin-bottom: 5px;
+}
+.nav-color-custom{
+  color: #495057;
+  background-color: #dfe6e9;
+}
+.nav-tabs2{
+  border: 1px solid #dfe6e9
+}
+.nav-tabs3{
+  border-bottom: 1px solid #dfe6e9
+}
+.stats-user{
+  background: #edf2f9;
+  color: #222;
+  padding: 15px;
+}
+
+
+
+
+
+
+.navbar-dark .navbar-toggler:focus {
+    background: none;
+    outline: 0;
+}
+
+.navbar-dark .navbar-toggler span {
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 6px auto;
+    background: #fff;
+    transition: all .6s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+
+.navbar-dark .navbar-toggler:hover span,
+.navbar-dark .navbar-toggler:focus span {
+    background: #ccc;
+}
+
+/* rotate first span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:first-of-type {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+
+/* hide second span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:nth-of-type(2) {
+    opacity: 0;
+}
+
+/* rotate third span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:last-of-type {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.navbar-dark .navbar-toggler[aria-expanded="false"] span {
+    transform: none;
+    opacity: 1;
+}
